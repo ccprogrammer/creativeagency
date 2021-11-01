@@ -1,0 +1,450 @@
+html, body {
+    overflow-x: hidden; 
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #fff;
+    word-wrap: break-word; 
+    h2 {
+        font-size: 35px;
+        color: #121212;
+        font-weight: 600;
+    }
+}
+
+/// Mobile 
+@media (max-width: 992px) { 
+    h1 {
+       font-size: 9vw !important;
+    }
+    .header-description {
+        font-size: 3vw !important;
+    }
+    .btn-start-free-trial-mobile {
+        color: #fff;
+        border-color: #fff;
+        width: 100%;
+    }
+    h2 {
+        font-size: 30px !important;
+        color: #121212;
+        font-weight: 600;
+    }
+    .head-link {
+        font-size: 17px;
+    }
+    .section-third {
+        .description {
+            font-size: 17px !important;
+        }
+        .name {
+            font-size: 15px !important;
+        }
+        .job {
+            font-size: 12px !important;
+        }
+    }
+ }
+
+// Desktop 
+@media (min-width: 992px) { 
+    // card Weekly Progress 
+    .section-second {
+        .section-second-left {
+            .right {
+                margin-left: 290px !important;
+                margin-bottom: -80px !important;
+            }
+            .left {
+                margin: 0 !important;
+            }
+        }
+    }
+    .arrow-left-right {
+        margin-top: -80px !important;
+    }
+
+}
+
+@media (max-width: 1200px) { 
+    
+ }
+
+
+// navbar 
+nav {
+    background-color: #121212;
+}
+.navbar {
+    .nav-link {
+        font-size: 14px;
+        color: #fff !important;
+    }
+    
+    .btn-start-free-trial {
+        color: #fff;
+        border-color: #fff;
+    }
+}
+
+// header
+header {
+    background-color: #121212;
+    padding: 70px 0 120px;
+    .header-left {
+        h1 {
+            font-size: 5vw;
+            font-weight: 400;
+        }
+        p {
+            font-size: 1vw;
+            color: #949494;
+        }
+        .btn-daftar-sekarang {
+            font-weight: 500;
+            color: #fff;
+            background-image: linear-gradient(to bottom right,#1A52E4, #5C80FF);
+        }
+    }
+    .header-right {
+        position: relative;
+        .left {
+            top: 170px;
+            left: -30px;
+            position: absolute;
+        }
+        .middle {
+            top: -20px;
+            left: 80px;
+            position: absolute;
+            z-index: 1;
+            .card {
+                border-radius: 10px;
+                .card-header{
+                    border: none;
+                    background-color: #fff;
+                    font-weight: 600;
+                    color: #000;
+                }
+                li { 
+                    border: none;
+                    }
+                .progress{
+                    margin-left: 16px;
+                    width: 225px;
+                    height: 5px;
+                    border-radius: 5px;
+                    .bg-1 {
+                        background-color: #6459E8;
+                    }
+                    .bg-2 {
+                        background-color: #E85959;
+                    }
+                    .bg-3 {
+                        background-color: #59E8E8;
+                    }
+                }
+            }
+          
+        }
+        .right {        
+            left: 270px;
+            position: absolute;
+        }
+    }
+}
+
+// Main
+
+// section-first
+.section-first {
+    padding-top: 125px;
+    // min-height: 660px;
+    .section-first-left {
+        p {
+            font-size: 18px;
+            color: #404852;
+        }
+
+        .user {
+            img {
+                width: 48px;
+                float: left;
+            }
+            .description {                
+                float: left;
+                h6 {
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: #121212;
+                }
+                p {
+                    font-size: 12px;
+                    color: #949494;
+                }
+            }
+        }
+        hr {
+            display:block;
+            width: 100%;               
+            background-color: #cecece;
+            height: 3px;
+        }
+        .user-progress {
+            p {
+                font-size: 14px;
+                color: #7A7A7A;
+            }
+        }
+    }
+    
+    .section-first-right {
+        position: relative;
+        .bg-card {
+            position: absolute;
+            height: 500px;
+            width: 581px;
+            top: 80px;
+            left: 60px;
+            opacity: 0.5;
+        }
+        .card {
+            border-radius: 0;
+            border-top: 3px solid #2D8DFE;
+            padding-top: 20px;
+            padding-bottom: 30px;
+   
+            .card-title {
+                color: #121212;
+                font-size: 24px;
+                font-weight: 600;
+            }
+            .card-text {
+                font-size: 14px;
+                color: #404852;
+            }
+        }
+    }
+}
+
+// meliuk
+.section-meliuk {
+    margin-top: -60px;
+    img{
+        margin-left: -100px;
+    }
+}
+
+// section-second
+.section-second {
+    position: relative;
+    margin-top: 100px;
+    padding-bottom: 100px;
+
+      // card left mobile / Konsep design homepage
+  
+      .head-title {
+        color: #000 !important;
+        font-size: 18px;
+        font-weight: 600;
+        }
+        .datee {
+            font-size: 12px;
+            color: #121212;
+        }
+        .textt {
+            font-size: 13px;
+            color: #121212;
+        }
+
+        .prog {
+            font-size: 13px;
+            font-weight: 500;
+            color: #121212;
+        }
+        .prog-bar {
+            height: 10px;
+        }
+        .orange {
+            position: relative;
+            z-index: 2;
+        }
+        .pink {
+            margin-left: -12px;
+            position: relative;
+            z-index: 1;
+        }
+        .blue {
+            margin-left: -12px;
+            position: relative;
+        }
+        .people {
+            display: inline-block;
+            font-size: 12px;
+            color: #121212;
+        }
+        // end card left mobile
+
+    .section-second-left {
+        h5 {
+            color: #121212;
+            font-size: 18px;
+        }
+        
+        // card right
+        .right {
+            color: #121212;
+            width: 330px;
+            height: 330px;
+            margin: 0 auto;
+            z-index: 2;
+            .titik{
+                margin-left: 90px;
+            }
+
+            .circular-progress {
+                margin-top: 110px;
+                h3 {
+                    position: relative;
+                    color: #33AC72;    
+                    margin-bottom: -7px;                
+                }
+                span {
+                  
+                    font-size: 12px;
+                    
+                }
+                .progress-img {
+                    margin-top: -120px !important;
+                }
+            }
+        }
+
+      
+        // card left desktop / Konsep design homepage
+            .left {
+              max-width: 380px;
+              box-sizing: border-box;
+              margin: 0 auto;
+              z-index: 1;
+
+                .card-sub-text {
+                    color: #C4CAD3;
+                    font-size: 12px;
+                }
+                .card-text {
+                    font-size: 13px;
+                    color: #121212;
+                }
+                h6 {
+                    font-size: 13px;  
+                    color: #121212;
+                }
+                .progress {
+                    height: 5px;
+                }
+                .orange {
+                    position: relative;
+                    z-index: 2;
+                }
+                .pink {
+                    margin-left: -12px;
+                    position: relative;
+                    z-index: 1;
+                }
+                .blue {
+                    margin-left: -12px;
+                    position: relative;
+                }
+                .people {
+                    display: inline-block;
+                    font-size: 12px;
+                    color: #121212;
+                }
+
+            }
+            .bg-card-2 {
+                position: relative;
+                opacity: 0.6;
+                margin-top: -360px;
+                margin-left: -120px;
+                height: 392px;
+                width: 630px;
+            }
+        }
+    }
+
+// section second right 
+.section-second-right {
+    color: #121212;
+    .table {
+        .btn-table-head {
+            font-size: 19px;
+            font-weight: 600;
+            width: 100%;
+            padding: 0 0 0 10px;
+            .arrow {
+                float: right;
+            }  
+        }
+     
+        p {
+            font-size: 14px;
+            color: #404852;
+        }
+        .sub-link {
+            margin-left: -7px;
+            font-size: 24px;
+            font-weight: 600;
+            color: #6459E8;
+            img {
+                margin-top: -3px;
+                margin-left: 5px;
+            }
+        }
+    }
+}
+
+// section third
+.section-third {
+    position: relative;
+    padding-bottom: 50px;
+    .bg-image {
+        position: absolute;
+        height: 280px;
+        width: 100%;
+        left: -100px;
+    }
+    
+    img {
+        position: relative;
+        width: 80%;
+        z-index: 1;
+    }
+    .description {
+        position: relative;
+        font-size: 24px;
+        color: #121212;
+        z-index: 1;
+    }
+    .name {
+        position: relative;
+        color: #121212;
+        font-size: 20px;
+        font-weight: 500;
+        z-index: 1;
+    }
+    .job {
+        position: relative;
+        color: #121212;
+        font-size: 16px;
+        z-index: 1;
+    }
+    .arrow-left-right {
+        width: 64px !important;
+        height: 24px !important;
+        float: right;
+        margin-top: -35px;
+    }
+}
+
+

@@ -1,0 +1,456 @@
+html, body {
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #fff;
+  word-wrap: break-word;
+}
+
+html h2, body h2 {
+  font-size: 35px;
+  color: #121212;
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 9vw !important;
+  }
+  .header-description {
+    font-size: 3vw !important;
+  }
+  .btn-start-free-trial-mobile {
+    color: #fff;
+    border-color: #fff;
+    width: 100%;
+  }
+  h2 {
+    font-size: 30px !important;
+    color: #121212;
+    font-weight: 600;
+  }
+  .head-link {
+    font-size: 17px;
+  }
+  .section-third .description {
+    font-size: 17px !important;
+  }
+  .section-third .name {
+    font-size: 15px !important;
+  }
+  .section-third .job {
+    font-size: 12px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .section-second .section-second-left .right {
+    margin-left: 290px !important;
+    margin-bottom: -80px !important;
+  }
+  .section-second .section-second-left .left {
+    margin: 0 !important;
+  }
+  .arrow-left-right {
+    margin-top: -80px !important;
+  }
+}
+
+nav {
+  background-color: #121212;
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  color: #fff !important;
+}
+
+.navbar .btn-start-free-trial {
+  color: #fff;
+  border-color: #fff;
+}
+
+header {
+  background-color: #121212;
+  padding: 70px 0 120px;
+}
+
+header .header-left h1 {
+  font-size: 5vw;
+  font-weight: 400;
+}
+
+header .header-left p {
+  font-size: 1vw;
+  color: #949494;
+}
+
+header .header-left .btn-daftar-sekarang {
+  font-weight: 500;
+  color: #fff;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#1A52E4), to(#5C80FF));
+  background-image: linear-gradient(to bottom right, #1A52E4, #5C80FF);
+}
+
+header .header-right {
+  position: relative;
+}
+
+header .header-right .left {
+  top: 170px;
+  left: -30px;
+  position: absolute;
+}
+
+header .header-right .middle {
+  top: -20px;
+  left: 80px;
+  position: absolute;
+  z-index: 1;
+}
+
+header .header-right .middle .card {
+  border-radius: 10px;
+}
+
+header .header-right .middle .card .card-header {
+  border: none;
+  background-color: #fff;
+  font-weight: 600;
+  color: #000;
+}
+
+header .header-right .middle .card li {
+  border: none;
+}
+
+header .header-right .middle .card .progress {
+  margin-left: 16px;
+  width: 225px;
+  height: 5px;
+  border-radius: 5px;
+}
+
+header .header-right .middle .card .progress .bg-1 {
+  background-color: #6459E8;
+}
+
+header .header-right .middle .card .progress .bg-2 {
+  background-color: #E85959;
+}
+
+header .header-right .middle .card .progress .bg-3 {
+  background-color: #59E8E8;
+}
+
+header .header-right .right {
+  left: 270px;
+  position: absolute;
+}
+
+.section-first {
+  padding-top: 125px;
+}
+
+.section-first .section-first-left p {
+  font-size: 18px;
+  color: #404852;
+}
+
+.section-first .section-first-left .user img {
+  width: 48px;
+  float: left;
+}
+
+.section-first .section-first-left .user .description {
+  float: left;
+}
+
+.section-first .section-first-left .user .description h6 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #121212;
+}
+
+.section-first .section-first-left .user .description p {
+  font-size: 12px;
+  color: #949494;
+}
+
+.section-first .section-first-left hr {
+  display: block;
+  width: 100%;
+  background-color: #cecece;
+  height: 3px;
+}
+
+.section-first .section-first-left .user-progress p {
+  font-size: 14px;
+  color: #7A7A7A;
+}
+
+.section-first .section-first-right {
+  position: relative;
+}
+
+.section-first .section-first-right .bg-card {
+  position: absolute;
+  height: 500px;
+  width: 581px;
+  top: 80px;
+  left: 60px;
+  opacity: 0.5;
+}
+
+.section-first .section-first-right .card {
+  border-radius: 0;
+  border-top: 3px solid #2D8DFE;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.section-first .section-first-right .card .card-title {
+  color: #121212;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.section-first .section-first-right .card .card-text {
+  font-size: 14px;
+  color: #404852;
+}
+
+.section-meliuk {
+  margin-top: -60px;
+}
+
+.section-meliuk img {
+  margin-left: -100px;
+}
+
+.section-second {
+  position: relative;
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section-second .head-title {
+  color: #000 !important;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.section-second .datee {
+  font-size: 12px;
+  color: #121212;
+}
+
+.section-second .textt {
+  font-size: 13px;
+  color: #121212;
+}
+
+.section-second .prog {
+  font-size: 13px;
+  font-weight: 500;
+  color: #121212;
+}
+
+.section-second .prog-bar {
+  height: 10px;
+}
+
+.section-second .orange {
+  position: relative;
+  z-index: 2;
+}
+
+.section-second .pink {
+  margin-left: -12px;
+  position: relative;
+  z-index: 1;
+}
+
+.section-second .blue {
+  margin-left: -12px;
+  position: relative;
+}
+
+.section-second .people {
+  display: inline-block;
+  font-size: 12px;
+  color: #121212;
+}
+
+.section-second .section-second-left h5 {
+  color: #121212;
+  font-size: 18px;
+}
+
+.section-second .section-second-left .right {
+  color: #121212;
+  width: 330px;
+  height: 330px;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.section-second .section-second-left .right .titik {
+  margin-left: 90px;
+}
+
+.section-second .section-second-left .right .circular-progress {
+  margin-top: 110px;
+}
+
+.section-second .section-second-left .right .circular-progress h3 {
+  position: relative;
+  color: #33AC72;
+  margin-bottom: -7px;
+}
+
+.section-second .section-second-left .right .circular-progress span {
+  font-size: 12px;
+}
+
+.section-second .section-second-left .right .circular-progress .progress-img {
+  margin-top: -120px !important;
+}
+
+.section-second .section-second-left .left {
+  max-width: 380px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.section-second .section-second-left .left .card-sub-text {
+  color: #C4CAD3;
+  font-size: 12px;
+}
+
+.section-second .section-second-left .left .card-text {
+  font-size: 13px;
+  color: #121212;
+}
+
+.section-second .section-second-left .left h6 {
+  font-size: 13px;
+  color: #121212;
+}
+
+.section-second .section-second-left .left .progress {
+  height: 5px;
+}
+
+.section-second .section-second-left .left .orange {
+  position: relative;
+  z-index: 2;
+}
+
+.section-second .section-second-left .left .pink {
+  margin-left: -12px;
+  position: relative;
+  z-index: 1;
+}
+
+.section-second .section-second-left .left .blue {
+  margin-left: -12px;
+  position: relative;
+}
+
+.section-second .section-second-left .left .people {
+  display: inline-block;
+  font-size: 12px;
+  color: #121212;
+}
+
+.section-second .section-second-left .bg-card-2 {
+  position: relative;
+  opacity: 0.6;
+  margin-top: -360px;
+  margin-left: -120px;
+  height: 392px;
+  width: 630px;
+}
+
+.section-second-right {
+  color: #121212;
+}
+
+.section-second-right .table .btn-table-head {
+  font-size: 19px;
+  font-weight: 600;
+  width: 100%;
+  padding: 0 0 0 10px;
+}
+
+.section-second-right .table .btn-table-head .arrow {
+  float: right;
+}
+
+.section-second-right .table p {
+  font-size: 14px;
+  color: #404852;
+}
+
+.section-second-right .table .sub-link {
+  margin-left: -7px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #6459E8;
+}
+
+.section-second-right .table .sub-link img {
+  margin-top: -3px;
+  margin-left: 5px;
+}
+
+.section-third {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.section-third .bg-image {
+  position: absolute;
+  height: 280px;
+  width: 100%;
+  left: -100px;
+}
+
+.section-third img {
+  position: relative;
+  width: 80%;
+  z-index: 1;
+}
+
+.section-third .description {
+  position: relative;
+  font-size: 24px;
+  color: #121212;
+  z-index: 1;
+}
+
+.section-third .name {
+  position: relative;
+  color: #121212;
+  font-size: 20px;
+  font-weight: 500;
+  z-index: 1;
+}
+
+.section-third .job {
+  position: relative;
+  color: #121212;
+  font-size: 16px;
+  z-index: 1;
+}
+
+.section-third .arrow-left-right {
+  width: 64px !important;
+  height: 24px !important;
+  float: right;
+  margin-top: -35px;
+}
+/*# sourceMappingURL=main.css.map */
